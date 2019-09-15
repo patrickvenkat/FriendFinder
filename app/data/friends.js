@@ -6,22 +6,22 @@
 var friendsArray = [
     {
       name: "Barbie",
-      photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjw1-2wqdDkAhVVoFsKHRhOAEoQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2Ftoys-games-barbie-rainbow-lights-mermaid%2F31093114&psig=AOvVaw1lb20GnN0Rs_HvBI_jz8so&ust=1568550831211424",
+      photo: "https://placeimg.com/640/480/people",
       scores: [1,1,1,1,1,1,1,1,1,1],
     },
     {
       name: "Ken",
-      photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiRjNeiqdDkAhWRKn0KHU1XB-kQjRx6BAgBEAQ&url=https%3A%2F%2Fbarbie.mattel.com%2Fshop%2Fen-us%2Fba%2Fmovies-videos%2Fbarbie-dolphin-magic-ken-doll-fbd71&psig=AOvVaw0UBDfJFV109eGIjV4AI2wf&ust=1568550803248068",
+      photo: "https://placeimg.com/640/480/people",
       scores: [2,2,1,1,1,1,1,1,1,1],
     },
     {
       name: "Douchebag",
-      photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiE_ZCQqdDkAhUWJzQIHUlNCQ4QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2Fdont-be-a-douchebag-matthew-james%2F1123869164&psig=AOvVaw3k5np83GEiuFxDV2ljCtIo&ust=1568550767837734",
+      photo: "https://placeimg.com/640/480/people",
       scores: [3,3,1,1,1,1,1,1,1,1],
     },
     {
       name: "Diva",
-      photo: "https://images.app.goo.gl/LzFYWZztsP28xM1q7",
+      photo: "https://placeimg.com/640/480/people",
       scores: [4,4,1,1,1,1,1,1,1,1],
     }
   ];
