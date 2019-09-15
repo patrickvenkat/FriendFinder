@@ -21,14 +21,23 @@ module.exports = function(app) {
   // API POST Requests
   // ===============================================================================
   app.post("/api/friends", function(req, res) {
+      let lowestScore = -1;
+      let lowestIndex = -1;
       for (let i=0; i<friendsData.length; i++){
-        let scoreDiff1 = 0;
+        let scoreDiff = 0;
         for(let j=0; j<10; j++){
-          scoreDiff1 = scoreDiff1 + Math.abs(friendsData[i].scores[j] - req.body.scores[j]);
+          scoreDiff = scoreDiff + Math.abs(friendsData[i].scores[j] - req.body.scores[j]);
         }
-        console.log(`score difference ${i} is ${scoreDiff1}`);
+        if (lowestScore === -1){
+          lowestScore = scoreDiff
+          lowestIndex = i;
+        }else if (scoreDiff <= lowestScore){
+          lowestScore = scoreDiff;
+          lowestIndex = i;
+        }
+        console.log(`score difference ${i} is ${scoreDiff}`);
       }
       friendsData.push(req.body);
-      res.json(true);
+      res.json(friendsData[lowestIndex]);
   });
 }

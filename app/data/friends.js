@@ -21,7 +21,7 @@ var friendsArray = [
     },
     {
       name: "Diva",
-      photo: "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwizpZCsqNDkAhU1GTQIHV1fBREQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.halloweencostumes.com%2Fwomens-cruel-diva-costume.html&psig=AOvVaw1nE0OPFm_wg64imev9BvTT&ust=1568550530240571",
+      photo: "https://images.app.goo.gl/LzFYWZztsP28xM1q7",
       scores: [4,4,1,1,1,1,1,1,1,1],
     }
   ];
