@@ -6,22 +6,22 @@
 var friendsArray = [
     {
       name: "Barbie",
-      photo: "https://placeimg.com/640/480/people",
+      photo: "https://placeimg.com/200/200/woman",
       scores: [1,1,1,1,1,1,1,1,1,1],
     },
     {
       name: "Ken",
-      photo: "https://placeimg.com/640/480/people",
+      photo: "https://placeimg.com/200/200/man",
       scores: [2,2,1,1,1,1,1,1,1,1],
     },
     {
       name: "Douchebag",
-      photo: "https://placeimg.com/640/480/people",
+      photo: "https://placeimg.com/200/200/man",
       scores: [3,3,1,1,1,1,1,1,1,1],
     },
     {
       name: "Diva",
-      photo: "https://placeimg.com/640/480/people",
+      photo: "https://placeimg.com/200/200/woman",
       scores: [4,4,1,1,1,1,1,1,1,1],
     }
   ];
